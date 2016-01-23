@@ -1,7 +1,3 @@
-# CSS-Basico
-Ejemplos de uso de css en html
-
-
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -14,10 +10,75 @@ Ejemplos de uso de css en html
 	<meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design.">
 	
 <title>Science and more</title>
+<style type="text/css">
 
-/*Aquí va el código css que lo subo en otro archivo o también puede enlazarse en un archivo externo*/
+body{
+background-color:#fffadf;
+
+}
 
 
+#quote {
+position: absolute;
+border: 1px dotted #ffe762;
+top: 100px;
+left: 20px;
+right: 20px;
+}
+
+#a {
+font: italic 1.1em/2.2 georgia; 
+color: #3b3200; 
+text-align: left;
+
+}
+
+#b {
+color:#000c4f;
+font-weight: bold;
+line-height:24 px;
+text-indent:10 px;
+background-image: url(http://people.stfx.ca/x2011/x2011spv/info102/Assignment1/background.jpg);
+
+}
+
+#c {
+Padding-left:2px; 
+Padding-right:4px; 
+Padding-top:8px; 
+Padding-bottom:6px;
+}
+
+#d {
+color:#423800;
+font-size:large;
+font-family: monospace;
+font-weight:100;              /*determino ancho de caracteres*/
+font-style:oblique;           
+
+
+}
+
+#e {
+Margin-left:4cm;
+Margin-right:6cm;
+Margin-top:3cm;
+Margin-bottom:6cm;
+
+
+}
+
+#f {
+
+
+
+}
+
+
+
+
+</style>
+</head>
 <body>
             <h1>El cerebro tiene <SPAN style="color:red">diez veces más memoria </SPAN>de lo que se pensaba</h1>
 			
@@ -47,5 +108,3 @@ Ejemplos de uso de css en html
  
 </body>
 </html>
-
-
